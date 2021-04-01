@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--    <color name="primary">#03A9F4</color>-->
+  <!--    <color name="primary_dark">#0288D1</color>-->
+  <!--    <color name="primary_light">#B3E5FC</color>-->
+  <!--    <color name="accent">#FF4081</color>-->
+  <!--    <color name="primary_text">#212121</color>-->
+  <!--    <color name="secondary_text">#757575</color>-->
+  <!--    <color name="icons">#FFFFFF</color>-->
+  <!--    <color name="divider">#BDBDBD</color>-->
+
+
+  <!--    <color name="primary">#4F8FC0</color>-->
+  <!--    <color name="primary_dark">#26648E</color>-->
+  <!--    <color name="primary_light">#53D2DC</color>-->
+  <!--    <color name="accent">#FFC872</color>-->
+  <!--    <color name="primary_text">#212121</color>-->
+  <!--    <color name="secondary_text">#757575</color>-->
+  <!--    <color name="icons">#FFFFFF</color>-->
+  <!--    <color name="divider">#BDBDBD</color>-->
+
+
+  <color name="primary">#03A9F4</color>
+  <color name="primary_dark">#0288D1</color>
+  <color name="primary_light">#B3E5FC</color>
+  <color name="accent">#607D8B</color>
+  <color name="primary_text">#212121</color>
+  <color name="secondary_text">#757575</color>
+  <color name="icons">#FFFFFF</color>
+  <color name="divider">#BDBDBD</color>
+  <color name="bb">#d1bec7</color>
+
+
+</resources>
+
+
+

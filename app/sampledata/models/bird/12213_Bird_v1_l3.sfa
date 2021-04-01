@@ -1,0 +1,61 @@
+{
+  materials: [
+    {
+      name: '12213_bird',
+      parameters: [
+        {
+          baseColor: '12213_bird_diffuse',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/bird/12213_Bird_v1_l3.obj',
+    name: '12213_Bird_v1_l3',
+    recenter: 'root',
+    scale: 0.15720799999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/bird\\12213_bird_diffuse.jpg',
+      name: '12213_bird_diffuse',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '12213_bird_diffuse.jpg',
+    },
+    {
+      file: 'sampledata/models/bird\\Map__7_Normal Bump.jpg',
+      name: 'Map__7_Normal Bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Map__7_Normal Bump.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

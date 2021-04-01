@@ -1,0 +1,136 @@
+{
+  materials: [
+    {
+      name: 'EyeBlack',
+      parameters: [
+        {
+          baseColor: 'Eye_D',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Eye_Iris',
+      parameters: [
+        {
+          baseColor: 'Eye_D',
+        },
+        {
+          baseColorTint: [
+            0.035281,
+            0.12598300000000001,
+            0.29909999999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.31905499999999998,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Eye_Tranz.001',
+      parameters: [
+        {
+          baseColor: 'Eye_D',
+        },
+        {
+          baseColorTint: [
+            0.607568,
+            0.607568,
+            0.607568,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.053171000000000003,
+        },
+        {
+          opacity: 0.17006399999999999,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Eye_white',
+      parameters: [
+        {
+          baseColor: 'Eye_D',
+        },
+        {
+          baseColorTint: [
+            0.41297299999999998,
+            0.41297299999999998,
+            0.41297299999999998,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.060141,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/eye/eyeball.obj',
+    name: 'eyeball',
+    recenter: 'root',
+    scale: 0.25915100000000002,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/eye\\textures\\Eye_D.jpg',
+      name: 'Eye_D',
+      pipeline_name: 'textures\\Eye_D.jpg',
+    },
+    {
+      file: 'sampledata/models/eye\\textures\\\\Eye_N.jpg',
+      name: 'Eye_N',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'textures\\\\Eye_N.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

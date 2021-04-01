@@ -1,0 +1,121 @@
+{
+  materials: [
+    {
+      name: '_auto_',
+      parameters: [
+        {
+          baseColor: 'LongCrowerTexture01',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '_auto_9',
+      parameters: [
+        {
+          baseColor: 'LongCrowerTexture02_1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '_auto_12',
+      parameters: [
+        {
+          baseColor: 'LongCrowerTexture02_2',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/cock/rooster.obj',
+    name: 'rooster',
+    recenter: 'root',
+    scale: 0.018194999999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/cock\\LongCrowerTexture01.png',
+      name: 'LongCrowerTexture01',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'LongCrowerTexture01.png',
+    },
+    {
+      file: 'sampledata/models/cock\\LongCrowerTexture02_1.png',
+      name: 'LongCrowerTexture02_1',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'LongCrowerTexture02_1.png',
+    },
+    {
+      file: 'sampledata/models/cock\\LongCrowerTexture02_2.png',
+      name: 'LongCrowerTexture02_2',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'LongCrowerTexture02_2.png',
+    },
+  ],
+  version: '0.54:2',
+}

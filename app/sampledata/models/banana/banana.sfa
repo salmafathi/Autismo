@@ -1,0 +1,87 @@
+{
+  materials: [
+    {
+      name: 'aiStandardSurface1SG',
+      parameters: [
+        {
+          baseColor: 'Banana_texture',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'initialShadingGroup',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.5,
+            0.5,
+            0.5,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/banana/banana.obj',
+    name: 'banana',
+    recenter: 'root',
+    scale: 0.35373199999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/banana\\Banana_texture.jpg',
+      name: 'Banana_texture',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Banana_texture.jpg',
+    },
+    {
+      file: 'sampledata/models/banana\\banana.png',
+      name: 'banana',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'banana.mb',
+    },
+  ],
+  version: '0.54:2',
+}

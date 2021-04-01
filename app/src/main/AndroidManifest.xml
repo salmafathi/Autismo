@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.salma.loginlayout">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00030000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/brain_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/brain_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activites.CustomSubCategories"></activity>
+        <activity android:name=".activites.AddNewSubcategory" />
+        <activity android:name=".activites.ProfileActivity" />
+        <activity
+            android:name=".activites.HomeMainCategories"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".activites.ViewModel" />
+        <activity
+            android:name=".activites.Sub_Categories_TabView_Activity"
+            android:label="@string/title_activity_home__navigation__drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+
+        <activity android:name=".activites.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activites.Login"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activites.SignUp"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>

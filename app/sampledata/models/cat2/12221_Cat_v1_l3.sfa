@@ -1,0 +1,61 @@
+{
+  materials: [
+    {
+      name: 'Cat',
+      parameters: [
+        {
+          baseColor: 'Cat_diffuse',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/cat2/12221_Cat_v1_l3.obj',
+    name: '12221_Cat_v1_l3',
+    recenter: 'root',
+    scale: 0.079647999999999997,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/cat2\\Cat_diffuse.jpg',
+      name: 'Cat_diffuse',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Cat_diffuse.jpg',
+    },
+    {
+      file: 'sampledata/models/cat2\\Cat_bump.jpg',
+      name: 'Cat_bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Cat_bump.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

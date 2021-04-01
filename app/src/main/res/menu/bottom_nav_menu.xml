@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/p3D"
+        android:enabled="true"
+        android:checked="true"
+        android:icon="@drawable/three_d_icon"
+        android:title="3D"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/p2D"
+        android:enabled="true"
+        android:title="image"
+        android:icon="@drawable/ic_picture"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/pause"
+        android:enabled="true"
+        android:title="pause"
+        android:icon="@drawable/ic_pause_symbol"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

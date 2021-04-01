@@ -1,0 +1,121 @@
+{
+  materials: [
+    {
+      name: 'aiStandardSurface1SG',
+      parameters: [
+        {
+          baseColor: 'apple nw_lambert1_BaseColor copy',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'aiStandardSurface2SG',
+      parameters: [
+        {
+          baseColor: '1',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'aiStandardSurface3SG',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/apple/uploads_files_2332293_OBJ.obj',
+    name: 'uploads_files_2332293_OBJ',
+    recenter: 'root',
+    scale: 0.49499599999999999,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/apple\\apple nw_lambert1_BaseColor copy.png',
+      name: 'apple nw_lambert1_BaseColor copy',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'apple nw_lambert1_BaseColor copy.png',
+    },
+    {
+      file: 'sampledata/models/apple\\1.jpg',
+      name: '1',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '1.jpg',
+    },
+    {
+      file: 'sampledata/models/apple\\7.jpg',
+      name: '7',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '7.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

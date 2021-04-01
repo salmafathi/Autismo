@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "496400511962",
+    "firebase_url": "https://joe-brain.firebaseio.com",
+    "project_id": "joe-brain",
+    "storage_bucket": "joe-brain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496400511962:android:47914beb36c8a31ec386e3",
+        "android_client_info": {
+          "package_name": "com.salma.loginlayout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496400511962-jc0q4psf92osn6mio4iooqmb9bk5idcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salma.loginlayout",
+            "certificate_hash": "7e70bace880e91e88778b9615e2b5d51c19ccc66"
+          }
+        },
+        {
+          "client_id": "496400511962-kr7opgb8vr7qrg0edu829c806ia4670m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.salma.loginlayout",
+            "certificate_hash": "cc5050c378212906b2040be579ab43aa62093400"
+          }
+        },
+        {
+          "client_id": "496400511962-jeui8rrv33loqhvl5fub54juvjd3c0c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsO34-Ss1lfdCnQAoNii3rwgUV1purOX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496400511962-jeui8rrv33loqhvl5fub54juvjd3c0c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

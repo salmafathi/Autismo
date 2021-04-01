@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:id="@+id/drawermenue">
+
+    <item android:title="Categories" >
+        <menu>
+        <group android:id="@+id/nav_drawer_group_menue"  android:checkableBehavior="single">
+
+
+        </group>
+        </menu>
+    </item>
+
+    <item android:title="Favorites" android:id="@+id/favitem">
+        <menu>
+
+        </menu>
+    </item>
+
+    <group android:id="@+id/log_out_groub" android:checkableBehavior="single">
+    <item android:title="LOG OUT"  android:id="@+id/logoutitem">
+
+    </item>
+    </group>
+
+</menu>
